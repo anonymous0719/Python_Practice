@@ -3,14 +3,14 @@ class Sedan:
     def length(self):
         print("More than Hatchback")
 
-class Fiat(Sedan):
+class fiat(Sedan):
     pass
 
-class HondaCity(Sedan):
+class hondaCity(Sedan):
     def honda(self):
         print("shiny black car")
 
-car1 = Fiat()
-car2 = HondaCity()
+car1 = fiat()
+car2 = hondaCity()
 car1.length()
 car2.honda()
